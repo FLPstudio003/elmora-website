@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade-in {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
+/* ====== GLOBAL BACKGROUND ====== */
+html, body {
+  min-height: 100%;
+}
+
+body {
+  background-image: url("/full_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+/* ====== MOBILE BACKGROUND ====== */
+@media (max-width: 768px) {
+  body {
+    background-image: url("/full_bg_mobile.png");
+    background-attachment: scroll; /* FIX pre mobile */
+    background-position: center top;
+  }
+}
