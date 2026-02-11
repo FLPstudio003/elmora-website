@@ -190,7 +190,7 @@ export default function Home() {
                   Zavolajte nám a dohodneme si ďalší postup.
                 </p>
                 <p className="text-lg font-semibold text-[#01382E]">
-                  +421 912 345 678
+                  +421 952 099 751
                 </p>
               </div>
             </div>
@@ -210,7 +210,7 @@ export default function Home() {
             </p>
 
             <p className="text-[#01382E] font-medium mb-8">
-              info@elmoraslovakia.sk &nbsp;|&nbsp; +421 912 345 678
+              info@elmoraslovakia.sk &nbsp;|&nbsp; +421 952 099 751
             </p>
 
             <ScrollLink
