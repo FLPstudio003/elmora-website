@@ -67,7 +67,7 @@ export default function Header() {
           </a>
 
           <a
-            href="tel:+421912345678"
+            href="tel:+421952099751"
             className="text-gray-600 hover:text-[#01382E]"
             title="Zavolať"
           >
