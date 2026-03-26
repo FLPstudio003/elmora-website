@@ -15,7 +15,7 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react [external] (react, cjs)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$scroll__$5b$external$5d$__$28$react$2d$scroll$2c$__cjs$2c$__$5b$project$5d2f$node_modules$2f$react$2d$scroll$29$__ = __turbopack_context__.i("[externals]/react-scroll [external] (react-scroll, cjs, [project]/node_modules/react-scroll)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.esm.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [ssr] (ecmascript)");
 ;
@@ -95,7 +95,7 @@ function Header() {
                                 href: "mailto:info@elmoraslovakia.sk",
                                 className: "text-gray-600 hover:text-[#01382E] ml-2",
                                 title: "Napísať e-mail",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaEnvelope"], {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FaEnvelope"], {
                                     size: 18
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header.tsx",
@@ -108,10 +108,10 @@ function Header() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                href: "tel:+421912345678",
+                                href: "tel:+421952099751",
                                 className: "text-gray-600 hover:text-[#01382E]",
                                 title: "Zavolať",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaPhone"], {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FaPhone"], {
                                     size: 18
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header.tsx",
@@ -133,13 +133,13 @@ function Header() {
                         onClick: ()=>setIsOpen(!isOpen),
                         className: "md:hidden text-gray-700 hover:text-[#01382E]",
                         "aria-label": "Menu",
-                        children: isOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaTimes"], {
+                        children: isOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FaTimes"], {
                             size: 22
                         }, void 0, false, {
                             fileName: "[project]/components/Header.tsx",
                             lineNumber: 84,
                             columnNumber: 21
-                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaBars"], {
+                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FaBars"], {
                             size: 22
                         }, void 0, false, {
                             fileName: "[project]/components/Header.tsx",
@@ -185,7 +185,7 @@ function Header() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                                     href: "mailto:info@elmoraslovakia.sk",
                                     className: "text-gray-600 hover:text-[#01382E]",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaEnvelope"], {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FaEnvelope"], {
                                         size: 18
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
@@ -198,9 +198,9 @@ function Header() {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                    href: "tel:+421912345678",
+                                    href: "tel:+421952099751",
                                     className: "text-gray-600 hover:text-[#01382E]",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaPhone"], {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FaPhone"], {
                                         size: 18
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
@@ -247,6 +247,8 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$scroll__$5b$external$5d$__$28$react$2d$scroll$2c$__cjs$2c$__$5b$project$5d2f$node_modules$2f$react$2d$scroll$29$__ = __turbopack_context__.i("[externals]/react-scroll [external] (react-scroll, cjs, [project]/node_modules/react-scroll)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Header$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Header.tsx [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [ssr] (ecmascript)");
+;
 ;
 ;
 ;
@@ -255,7 +257,7 @@ function Home() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Header$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/home.tsx",
-                lineNumber: 7,
+                lineNumber: 8,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("main", {
@@ -278,21 +280,29 @@ function Home() {
                                                 children: "ELMORA s.r.o."
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/home.tsx",
-                                                lineNumber: 27,
+                                                lineNumber: 28,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/home.tsx",
-                                        lineNumber: 25,
+                                        lineNumber: 26,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                         className: "text-lg md:text-xl text-gray-600 mb-10 leading-relaxed",
-                                        children: "Spoločnosť ELMORA s.r.o. prináša riešenia v oblastiach, kde je potrebné mimoriadne spoľahlivé IP krytie, kvalita a odolnosť materiálov a produktov – poľnohospodárstvo, lodiarstvo, vojenský a letecký priemysel, farmaceutika, petrochemický či potravinársky sektor."
-                                    }, void 0, false, {
+                                        children: [
+                                            "Spoločnosť ELMORA s.r.o. prináša technicky precízne riešenia tam, kde spoľahlivosť rozhoduje.",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                fileName: "[project]/pages/home.tsx",
+                                                lineNumber: 33,
+                                                columnNumber: 15
+                                            }, this),
+                                            "Každý projekt je pre nás jedinečný – staviame na dôvere, transparentnej komunikácii a dokonalosti v detailoch..."
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/pages/home.tsx",
-                                        lineNumber: 30,
+                                        lineNumber: 31,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$scroll__$5b$external$5d$__$28$react$2d$scroll$2c$__cjs$2c$__$5b$project$5d2f$node_modules$2f$react$2d$scroll$29$__["Link"], {
@@ -304,13 +314,13 @@ function Home() {
                                         children: "Zistiť viac"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/home.tsx",
-                                        lineNumber: 38,
+                                        lineNumber: 37,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/home.tsx",
-                                lineNumber: 24,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -336,7 +346,7 @@ function Home() {
                                                 children: item.title
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/home.tsx",
-                                                lineNumber: 82,
+                                                lineNumber: 81,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -344,24 +354,24 @@ function Home() {
                                                 children: item.text
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/home.tsx",
-                                                lineNumber: 85,
+                                                lineNumber: 84,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, item.title, true, {
                                         fileName: "[project]/pages/home.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 77,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/pages/home.tsx",
-                                lineNumber: 60,
+                                lineNumber: 59,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/home.tsx",
-                        lineNumber: 12,
+                        lineNumber: 13,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -379,13 +389,13 @@ function Home() {
                                             children: "nás"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/home.tsx",
-                                            lineNumber: 100,
+                                            lineNumber: 99,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/home.tsx",
-                                    lineNumber: 99,
+                                    lineNumber: 98,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -396,14 +406,14 @@ function Home() {
                                             children: "ELMORA s.r.o."
                                         }, void 0, false, {
                                             fileName: "[project]/pages/home.tsx",
-                                            lineNumber: 104,
+                                            lineNumber: 103,
                                             columnNumber: 26
                                         }, this),
-                                        " vznikla s cieľom prinášať technicky precízne riešenia tam, kde je spoľahlivosť absolútnou prioritou."
+                                        "prináša technické riešenia pre náročné prevádzky, kde rozhodujú kvalita, bezpečnosť a odolnosť. Naše produkty sú navrhnuté tak, aby zvládli extrémne podmienky a splnili najprísnejšie priemyselné štandardy. Ich využitie nachádza uplatnenie v poľnohospodárstve, vojenskom a leteckom priemysle, farmaceutickom sektore, petrochemii aj potravinárstve."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/home.tsx",
-                                    lineNumber: 103,
+                                    lineNumber: 102,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -411,7 +421,7 @@ function Home() {
                                     children: "Každý projekt vnímame individuálne. Staviame na dlhodobej spolupráci, transparentnej komunikácii a dôraze na detail."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/home.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 110,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -419,18 +429,18 @@ function Home() {
                                     children: "Kombináciou odbornosti, kvalitných materiálov a moderných technológií pomáhame firmám rásť a optimalizovať ich procesy."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/home.tsx",
-                                    lineNumber: 114,
+                                    lineNumber: 115,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/home.tsx",
-                            lineNumber: 98,
+                            lineNumber: 97,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/home.tsx",
-                        lineNumber: 94,
+                        lineNumber: 93,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -448,52 +458,86 @@ function Home() {
                                             children: "zastúpenia"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/home.tsx",
-                                            lineNumber: 128,
-                                            columnNumber: 25
+                                            lineNumber: 130,
+                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/home.tsx",
-                                    lineNumber: 127,
-                                    columnNumber: 13
+                                    lineNumber: 129,
+                                    columnNumber: 5
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                     className: "text-lg text-gray-600 mb-16",
-                                    children: "Spolupracujeme s renomovanými výrobcami a technologickými partnermi. Oficiálne zastúpenia a certifikácie budú prezentované v tejto sekcii."
+                                    children: "Spolupracujeme s renomovanými výrobcami a technologickými partnermi."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/home.tsx",
-                                    lineNumber: 131,
-                                    columnNumber: 13
+                                    lineNumber: 133,
+                                    columnNumber: 5
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                     className: "grid grid-cols-1 md:grid-cols-3 gap-8",
                                     children: [
-                                        "Partner A",
-                                        "Partner B",
-                                        "Partner C"
-                                    ].map((p)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                            className: "border border-[#01382E] rounded-2xl p-16 bg-white/80 backdrop-blur",
-                                            children: p
-                                        }, p, false, {
+                                        {
+                                            link: "/qlight",
+                                            logo: "/logos/qlight.png"
+                                        },
+                                        {
+                                            link: "/rte",
+                                            logo: "/logos/marchio.png"
+                                        },
+                                        {
+                                            link: "/katko",
+                                            logo: "/logos/katko.png"
+                                        }
+                                    ].map((p, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                            className: "border border-[#01382E] rounded-2xl p-10 bg-white/80 backdrop-blur flex flex-col items-center gap-6",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                                                    src: p.logo,
+                                                    alt: "partner logo",
+                                                    className: "h-48 object-contain"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/home.tsx",
+                                                    lineNumber: 158,
+                                                    columnNumber: 11
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: p.link,
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
+                                                        className: "bg-[#01382E] text-white px-6 py-2 rounded-full hover:bg-[#012b23] transition",
+                                                        children: "Zistiť viac"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/pages/home.tsx",
+                                                        lineNumber: 166,
+                                                        columnNumber: 13
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/home.tsx",
+                                                    lineNumber: 165,
+                                                    columnNumber: 11
+                                                }, this)
+                                            ]
+                                        }, i, true, {
                                             fileName: "[project]/pages/home.tsx",
-                                            lineNumber: 139,
-                                            columnNumber: 17
+                                            lineNumber: 153,
+                                            columnNumber: 9
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/pages/home.tsx",
-                                    lineNumber: 137,
-                                    columnNumber: 13
+                                    lineNumber: 138,
+                                    columnNumber: 5
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/home.tsx",
-                            lineNumber: 126,
-                            columnNumber: 11
+                            lineNumber: 128,
+                            columnNumber: 3
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/home.tsx",
-                        lineNumber: 122,
-                        columnNumber: 9
+                        lineNumber: 124,
+                        columnNumber: 1
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
                         id: "contact",
@@ -512,13 +556,13 @@ function Home() {
                                                     children: "nás"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/home.tsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 184,
                                                     columnNumber: 29
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/home.tsx",
-                                            lineNumber: 157,
+                                            lineNumber: 183,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -526,7 +570,7 @@ function Home() {
                                             children: "Máte otázky alebo záujem o spoluprácu? Radi s vami prejdeme vaše požiadavky a navrhneme riešenie na mieru."
                                         }, void 0, false, {
                                             fileName: "[project]/pages/home.tsx",
-                                            lineNumber: 161,
+                                            lineNumber: 187,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -537,7 +581,7 @@ function Home() {
                                                     children: "rýchlo"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/home.tsx",
-                                                    lineNumber: 167,
+                                                    lineNumber: 193,
                                                     columnNumber: 34
                                                 }, this),
                                                 ",",
@@ -546,7 +590,7 @@ function Home() {
                                                     children: "odborne"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/home.tsx",
-                                                    lineNumber: 168,
+                                                    lineNumber: 194,
                                                     columnNumber: 17
                                                 }, this),
                                                 " a ",
@@ -554,20 +598,20 @@ function Home() {
                                                     children: "spoľahlivo"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/home.tsx",
-                                                    lineNumber: 168,
+                                                    lineNumber: 194,
                                                     columnNumber: 44
                                                 }, this),
                                                 "."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/home.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 192,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/home.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 182,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -581,7 +625,7 @@ function Home() {
                                                     children: "E-mail"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/home.tsx",
-                                                    lineNumber: 174,
+                                                    lineNumber: 200,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -589,7 +633,7 @@ function Home() {
                                                     children: "Napíšte nám a odpovieme vám čo najskôr."
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/home.tsx",
-                                                    lineNumber: 177,
+                                                    lineNumber: 203,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -597,13 +641,13 @@ function Home() {
                                                     children: "info@elmoraslovakia.sk"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/home.tsx",
-                                                    lineNumber: 180,
+                                                    lineNumber: 206,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/home.tsx",
-                                            lineNumber: 173,
+                                            lineNumber: 199,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -614,7 +658,7 @@ function Home() {
                                                     children: "Telefón"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/home.tsx",
-                                                    lineNumber: 186,
+                                                    lineNumber: 212,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -622,38 +666,38 @@ function Home() {
                                                     children: "Zavolajte nám a dohodneme si ďalší postup."
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/home.tsx",
-                                                    lineNumber: 189,
+                                                    lineNumber: 215,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                                     className: "text-lg font-semibold text-[#01382E]",
-                                                    children: "+421 912 345 678"
+                                                    children: "+421 952 099 751"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/home.tsx",
-                                                    lineNumber: 192,
+                                                    lineNumber: 218,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/home.tsx",
-                                            lineNumber: 185,
+                                            lineNumber: 211,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/home.tsx",
-                                    lineNumber: 172,
+                                    lineNumber: 198,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/home.tsx",
-                            lineNumber: 155,
+                            lineNumber: 181,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/home.tsx",
-                        lineNumber: 151,
+                        lineNumber: 177,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("footer", {
@@ -663,7 +707,7 @@ function Home() {
                                 className: "w-full h-px bg-black"
                             }, void 0, false, {
                                 fileName: "[project]/pages/home.tsx",
-                                lineNumber: 202,
+                                lineNumber: 228,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -674,7 +718,7 @@ function Home() {
                                         children: "ELMORA s.r.o."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/home.tsx",
-                                        lineNumber: 205,
+                                        lineNumber: 231,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -682,15 +726,15 @@ function Home() {
                                         children: "Moderné technické riešenia pre náročné odvetvia. Spoľahlivosť, kvalita a inovácie v každom detaile."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/home.tsx",
-                                        lineNumber: 207,
+                                        lineNumber: 233,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                         className: "text-[#01382E] font-medium mb-8",
-                                        children: "info@elmoraslovakia.sk  |  +421 912 345 678"
+                                        children: "info@elmoraslovakia.sk  |  +421 952 099 751"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/home.tsx",
-                                        lineNumber: 212,
+                                        lineNumber: 238,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$scroll__$5b$external$5d$__$28$react$2d$scroll$2c$__cjs$2c$__$5b$project$5d2f$node_modules$2f$react$2d$scroll$29$__["Link"], {
@@ -701,7 +745,7 @@ function Home() {
                                         children: "↑ Späť hore"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/home.tsx",
-                                        lineNumber: 216,
+                                        lineNumber: 242,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -709,25 +753,25 @@ function Home() {
                                         children: "© 2026 ELMORA s.r.o. Všetky práva vyhradené | Vytvorené spoločnosťou FLPstudio.sk"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/home.tsx",
-                                        lineNumber: 225,
+                                        lineNumber: 251,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/home.tsx",
-                                lineNumber: 204,
+                                lineNumber: 230,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/home.tsx",
-                        lineNumber: 201,
+                        lineNumber: 227,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/home.tsx",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 7
             }, this)
         ]

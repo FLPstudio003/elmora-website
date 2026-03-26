@@ -1,5 +1,6 @@
 import { Link as ScrollLink } from "react-scroll";
 import Header from "../components/Header";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -28,11 +29,9 @@ export default function Home() {
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed">
-              Spoločnosť ELMORA s.r.o. prináša riešenia v oblastiach, kde je
-              potrebné mimoriadne spoľahlivé IP krytie, kvalita a odolnosť
-              materiálov a produktov – poľnohospodárstvo, lodiarstvo,
-              vojenský a letecký priemysel, farmaceutika, petrochemický
-              či potravinársky sektor. Taktiež zabezpečíme úplny servis pre Automotive a všetky typy výroby.
+              Spoločnosť ELMORA s.r.o. prináša technicky precízne riešenia tam, kde spoľahlivosť rozhoduje.
+              <br/>Každý projekt je pre nás jedinečný – staviame na dôvere, transparentnej komunikácii a
+              dokonalosti v detailoch...
             </p>
 
             <ScrollLink
@@ -101,9 +100,11 @@ export default function Home() {
             </h2>
 
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Spoločnosť <strong>ELMORA s.r.o.</strong> vznikla s cieľom
-              prinášať technicky precízne riešenia tam, kde je
-              spoľahlivosť absolútnou prioritou.
+              Spoločnosť <strong>ELMORA s.r.o.</strong>prináša technické riešenia pre náročné prevádzky, kde rozhodujú kvalita,
+              bezpečnosť a odolnosť. Naše produkty sú navrhnuté tak, aby zvládli extrémne podmienky a
+              splnili najprísnejšie priemyselné štandardy. Ich využitie nachádza uplatnenie v
+              poľnohospodárstve, vojenskom a leteckom priemysle, farmaceutickom sektore, petrochemii
+              aj potravinárstve.
             </p>
 
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
@@ -118,34 +119,59 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ================= OFICIÁLNE ZASTÚPENIA ================= */}
-        <section
-          id="partners"
-          className="min-h-screen px-6 pt-[120px] md:pt-[100px] pb-24 flex items-center"
+
+
+<section
+  id="partners"
+  className="min-h-screen px-6 pt-[120px] md:pt-[100px] pb-24 flex items-center"
+>
+  <div className="max-w-6xl mx-auto text-center">
+    <h2 className="text-4xl font-bold mb-10">
+      Oficiálne <span className="text-[#01382E]">zastúpenia</span>
+    </h2>
+
+    <p className="text-lg text-gray-600 mb-16">
+      Spolupracujeme s renomovanými výrobcami a technologickými
+      partnermi.
+    </p>
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {[
+        {
+          link: "/qlight",
+          logo: "/logos/qlight.png",
+        },
+        {
+          link: "/rte",
+          logo: "/logos/marchio.png",
+        },
+        {
+          link: "/katko",
+          logo: "/logos/katko.png",
+        },
+      ].map((p, i) => (
+        <div
+          key={i}
+          className="border border-[#01382E] rounded-2xl p-10 bg-white/80 backdrop-blur flex flex-col items-center gap-6"
         >
-          <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-10">
-              Oficiálne <span className="text-[#01382E]">zastúpenia</span>
-            </h2>
+          {/* LOGO */}
+          <img
+            src={p.logo}
+            alt="partner logo"
+            className="h-48 object-contain"
+          />
 
-            <p className="text-lg text-gray-600 mb-16">
-              Spolupracujeme s renomovanými výrobcami a technologickými
-              partnermi. Oficiálne zastúpenia a certifikácie budú
-              prezentované v tejto sekcii.
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {["Partner A", "Partner B", "Partner C"].map((p) => (
-                <div
-                  key={p}
-                  className="border border-[#01382E] rounded-2xl p-16 bg-white/80 backdrop-blur"
-                >
-                  {p}
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+          {/* CTA */}
+          <Link href={p.link}>
+            <button className="bg-[#01382E] text-white px-6 py-2 rounded-full hover:bg-[#012b23] transition">
+              Zistiť viac
+            </button>
+          </Link>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 
         {/* ================= KONTAKT ================= */}
         <section
