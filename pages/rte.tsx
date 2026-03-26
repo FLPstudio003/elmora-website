@@ -103,7 +103,7 @@ export default function RTE() {
             </p>
 
             <a
-              href="/#contact"
+              href="/home#contact"
               className="bg-[#01382E] text-white px-8 py-3 rounded-full hover:bg-[#012b23] transition"
             >
               Kontaktovať nás

@@ -1,4 +1,7 @@
 self.__BUILD_MANIFEST = {
+  "/": [
+    "static/chunks/pages/index.js"
+  ],
   "/_error": [
     "static/chunks/pages/_error.js"
   ],
@@ -7,6 +10,9 @@ self.__BUILD_MANIFEST = {
   ],
   "/katko": [
     "static/chunks/pages/katko.js"
+  ],
+  "/qlight": [
+    "static/chunks/pages/qlight.js"
   ],
   "__rewrites": {
     "afterFiles": [],

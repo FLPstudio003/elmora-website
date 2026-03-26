@@ -608,7 +608,7 @@ function Katko() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                    href: "/#contact",
+                                    href: "/home#contact",
                                     className: "bg-[#01382E] text-white px-8 py-3 rounded-full hover:bg-[#012b23] transition",
                                     children: "Kontaktovať nás"
                                 }, void 0, false, {
