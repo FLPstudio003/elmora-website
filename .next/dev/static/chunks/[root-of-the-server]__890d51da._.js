@@ -952,7 +952,7 @@ function Home() {
                                         },
                                         {
                                             link: "/rte",
-                                            logo: "/logos/marchio.png"
+                                            logo: "/logos/marchio.PNG"
                                         },
                                         {
                                             link: "/katko",
