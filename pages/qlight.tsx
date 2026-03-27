@@ -27,7 +27,10 @@ export default function Qlight() {
             </h1>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              Globálny líder v oblasti priemyselných signalizačných zariadení.
+              Qlight je juhokórejská a globálna spoločnosť, ktorá sa zaoberá výrobou priemyselných
+signalizačných a osvetľovacích zariadení. Je známa ako odborník na vizuálne a akustické
+signalizačné systémy používané v automatizácii, výrobných linkách a iných priemyselných
+aplikáciách.
             </p>
           </div>
         </section>
@@ -37,14 +40,12 @@ export default function Qlight() {
           <div className="max-w-4xl mx-auto">
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              <strong>Qlight</strong> je juhokórejská spoločnosť špecializujúca
-              sa na signalizačné a osvetľovacie zariadenia pre priemysel.
+              <strong>Qlight</strong> existuje už od roku 1986 a pôsobí vo viac ako 40 krajinách, pričom jeho produkty sú
+certifikované podľa viacerých priemyselných noriem (napr. ISO9001, ATEX, CE, UL, IECEx, ,
+NEPSI, CCS ).
             </p>
 
-            <p className="text-gray-600 mb-10 leading-relaxed">
-              Pôsobí vo viac ako 40 krajinách a produkty sú certifikované podľa
-              ISO, ATEX, CE a ďalších noriem.
-            </p>
+            
 
             <h2 className="text-2xl font-semibold mb-6 text-[#01382E]">
               Portfolio:
@@ -102,24 +103,26 @@ export default function Qlight() {
 
         {/* ================= CTA ================= */}
         <section className="px-6 pb-24 text-center">
-          <div className="max-w-3xl mx-auto">
+          <div className="flex justify-center gap-6 mt-6">
+            
 
-            <h3 className="text-2xl font-semibold mb-6">
-              Máte záujem o produkty Qlight?
-            </h3>
+  <a
+    href="/home#contact"
+    className="bg-[#01382E] text-white px-8 py-3 rounded-full hover:bg-[#012b23] transition"
+  >
+    Kontaktovať nás
+  </a>
 
-            <p className="text-gray-600 mb-8">
-              Kontaktujte nás a radi vám poradíme.
-            </p>
+  <a
+    href="https://www.qlight.com/en/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#01382E] text-white px-8 py-3 rounded-full hover:bg-[#012b23] transition"
+  >
+    Navštíviť web Qlight
+  </a>
 
-            <a
-              href="/home#contact"
-              className="bg-[#01382E] text-white px-8 py-3 rounded-full hover:bg-[#012b23] transition"
-            >
-              Kontaktovať nás
-            </a>
-
-          </div>
+</div>
         </section>
 
         {/* ================= FOOTER ================= */}

@@ -21,3 +21,20 @@
 [01:45:53.394] Browser WARN    Image with src "/logo_header.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
 [01:46:00.377] Browser WARN    Image with src "/logo_header.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
 [01:46:13.890] Server  LOG     ✓ Compiled in 17ms
+[02:02:18.568] Browser WARN    Image with src "/logo_header.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:43:43.682] Browser WARN    Image with src "/logo_header.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:45:45.499] Server  LOG     ✓ Compiled in 113ms
+[22:46:10.920] Server  LOG     ✓ Compiled in 27ms
+[22:46:19.715] Server  LOG     ✓ Compiled in 21ms
+[22:46:34.581] Server  LOG     ✓ Compiled in 15ms
+[22:46:41.172] Browser WARN    Image with src "/logo_header.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:48:39.176] Server  LOG     ✓ Compiled in 22ms
+[22:48:55.180] Server  LOG     ✓ Compiled in 57ms
+[22:48:58.326] Browser WARN    Image with src "/logo_header.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:50:06.547] Server  LOG     ✓ Compiled in 19ms
+[22:51:55.449] Server  LOG     ✓ Compiled in 24ms
+[22:52:16.412] Server  LOG     ✓ Compiled in 18ms
+[22:52:26.851] Browser WARN    Image with src "/logo_header.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[22:52:31.066] Server  LOG     ✓ Compiled in 16ms
+[22:52:47.478] Server  LOG     ✓ Compiled in 16ms
+[22:53:12.913] Server  LOG     ✓ Compiled in 16ms

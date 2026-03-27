@@ -755,7 +755,7 @@ function Qlight() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-lg text-gray-600 leading-relaxed",
-                                    children: "Globálny líder v oblasti priemyselných signalizačných zariadení."
+                                    children: "Qlight je juhokórejská a globálna spoločnosť, ktorá sa zaoberá výrobou priemyselných signalizačných a osvetľovacích zariadení. Je známa ako odborník na vizuálne a akustické signalizačné systémy používané v automatizácii, výrobných linkách a iných priemyselných aplikáciách."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/qlight.tsx",
                                     lineNumber: 29,
@@ -784,22 +784,14 @@ function Qlight() {
                                             children: "Qlight"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/qlight.tsx",
-                                            lineNumber: 40,
+                                            lineNumber: 43,
                                             columnNumber: 15
                                         }, this),
-                                        " je juhokórejská spoločnosť špecializujúca sa na signalizačné a osvetľovacie zariadenia pre priemysel."
+                                        " existuje už od roku 1986 a pôsobí vo viac ako 40 krajinách, pričom jeho produkty sú certifikované podľa viacerých priemyselných noriem (napr. ISO9001, ATEX, CE, UL, IECEx, , NEPSI, CCS )."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/qlight.tsx",
-                                    lineNumber: 39,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-gray-600 mb-10 leading-relaxed",
-                                    children: "Pôsobí vo viac ako 40 krajinách a produkty sú certifikované podľa ISO, ATEX, CE a ďalších noriem."
-                                }, void 0, false, {
-                                    fileName: "[project]/pages/qlight.tsx",
-                                    lineNumber: 44,
+                                    lineNumber: 42,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -807,7 +799,7 @@ function Qlight() {
                                     children: "Portfolio:"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/qlight.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 50,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -817,45 +809,45 @@ function Qlight() {
                                             children: "LED signalizačné svetlá a stĺpy"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/qlight.tsx",
-                                            lineNumber: 54,
+                                            lineNumber: 55,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Sirény a zvukové zariadenia"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/qlight.tsx",
-                                            lineNumber: 55,
+                                            lineNumber: 56,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Bezpečnostné riešenia pre výrobu"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/qlight.tsx",
-                                            lineNumber: 56,
+                                            lineNumber: 57,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "IoT signalizačné systémy"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/qlight.tsx",
-                                            lineNumber: 57,
+                                            lineNumber: 58,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/qlight.tsx",
-                                    lineNumber: 53,
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/qlight.tsx",
-                            lineNumber: 37,
+                            lineNumber: 40,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/qlight.tsx",
-                        lineNumber: 36,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -868,7 +860,7 @@ function Qlight() {
                                     children: "Produkty"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/qlight.tsx",
-                                    lineNumber: 67,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -882,28 +874,28 @@ function Qlight() {
                                                 className: "w-full h-56 object-cover hover:scale-105 transition duration-300"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/qlight.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 79,
                                                 columnNumber: 19
                                             }, this)
                                         }, i, false, {
                                             fileName: "[project]/pages/qlight.tsx",
-                                            lineNumber: 73,
+                                            lineNumber: 74,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/pages/qlight.tsx",
-                                    lineNumber: 71,
+                                    lineNumber: 72,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/qlight.tsx",
-                            lineNumber: 65,
+                            lineNumber: 66,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/qlight.tsx",
-                        lineNumber: 64,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this),
                     selectedImg && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -914,53 +906,48 @@ function Qlight() {
                             className: "max-w-[90%] max-h-[90%] rounded-xl"
                         }, void 0, false, {
                             fileName: "[project]/pages/qlight.tsx",
-                            lineNumber: 96,
+                            lineNumber: 97,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/qlight.tsx",
-                        lineNumber: 92,
+                        lineNumber: 93,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                         className: "px-6 pb-24 text-center",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "max-w-3xl mx-auto",
+                            className: "flex justify-center gap-6 mt-6",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-2xl font-semibold mb-6",
-                                    children: "Máte záujem o produkty Qlight?"
-                                }, void 0, false, {
-                                    fileName: "[project]/pages/qlight.tsx",
-                                    lineNumber: 107,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-gray-600 mb-8",
-                                    children: "Kontaktujte nás a radi vám poradíme."
-                                }, void 0, false, {
-                                    fileName: "[project]/pages/qlight.tsx",
-                                    lineNumber: 111,
-                                    columnNumber: 13
-                                }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "/contact",
+                                    href: "/home#contact",
                                     className: "bg-[#01382E] text-white px-8 py-3 rounded-full hover:bg-[#012b23] transition",
                                     children: "Kontaktovať nás"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/qlight.tsx",
-                                    lineNumber: 115,
-                                    columnNumber: 13
+                                    lineNumber: 109,
+                                    columnNumber: 3
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "https://www.qlight.com/en/",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    className: "bg-[#01382E] text-white px-8 py-3 rounded-full hover:bg-[#012b23] transition",
+                                    children: "Navštíviť web Qlight"
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/qlight.tsx",
+                                    lineNumber: 116,
+                                    columnNumber: 3
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/qlight.tsx",
-                            lineNumber: 105,
+                            lineNumber: 106,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/qlight.tsx",
-                        lineNumber: 104,
+                        lineNumber: 105,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -970,7 +957,7 @@ function Qlight() {
                                 className: "w-full h-px bg-black"
                             }, void 0, false, {
                                 fileName: "[project]/pages/qlight.tsx",
-                                lineNumber: 127,
+                                lineNumber: 130,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -981,7 +968,7 @@ function Qlight() {
                                         children: "ELMORA s.r.o."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/qlight.tsx",
-                                        lineNumber: 130,
+                                        lineNumber: 133,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -989,7 +976,7 @@ function Qlight() {
                                         children: "Moderné technické riešenia pre náročné odvetvia."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/qlight.tsx",
-                                        lineNumber: 132,
+                                        lineNumber: 135,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -997,7 +984,7 @@ function Qlight() {
                                         children: "info@elmoraslovakia.sk | +421 952 099 751"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/qlight.tsx",
-                                        lineNumber: 136,
+                                        lineNumber: 139,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1005,19 +992,19 @@ function Qlight() {
                                         children: "© 2026 ELMORA s.r.o."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/qlight.tsx",
-                                        lineNumber: 140,
+                                        lineNumber: 143,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/qlight.tsx",
-                                lineNumber: 129,
+                                lineNumber: 132,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/qlight.tsx",
-                        lineNumber: 126,
+                        lineNumber: 129,
                         columnNumber: 9
                     }, this)
                 ]
