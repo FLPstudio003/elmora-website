@@ -1,8 +1,40 @@
 import { Link as ScrollLink } from "react-scroll";
 import Header from "../components/Header";
 import Link from "next/link";
+import { useRef } from "react";
 
 export default function Home() {
+  const partners = [
+    { link: "/qlight", logo: "/logos/qlight.png" },
+    { link: "/rte", logo: "/logos/marchio.PNG" },
+    { link: "/katko", logo: "/logos/katko.png" },
+    { link: "/techflex", logo: "/logos/techflex.png" },
+    { link: "/anamet", logo: "/logos/anamet.png" },
+    { link: "/atexsystem", logo: "/logos/atexsystem.png" },
+  ];
+
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  const scrollPartners = (direction: "left" | "right") => {
+    if (!scrollRef.current) return;
+    const cardWidth = scrollRef.current.children[0]?.clientWidth || 300;
+    scrollRef.current.scrollBy({
+      left: direction === "left" ? -(cardWidth + 32) : cardWidth + 32,
+      behavior: "smooth",
+    });
+  };
+
+  const PartnerCard = ({ p }: { p: (typeof partners)[0] }) => (
+    <div className="border border-[#01382E] rounded-2xl p-10 bg-white/80 backdrop-blur flex flex-col items-center gap-6 h-full">
+      <img src={p.logo} alt="partner logo" className="h-48 object-contain" />
+      <Link href={p.link}>
+        <button className="bg-[#01382E] text-white px-6 py-2 rounded-full hover:bg-[#012b23] transition">
+          Zistiť viac
+        </button>
+      </Link>
+    </div>
+  );
+
   return (
     <>
       <Header />
@@ -119,59 +151,60 @@ export default function Home() {
           </div>
         </section>
 
-
-
-<section
-  id="partners"
-  className="min-h-screen px-6 pt-[120px] md:pt-[100px] pb-24 flex items-center"
->
-  <div className="max-w-6xl mx-auto text-center">
-    <h2 className="text-4xl font-bold mb-10">
-      Oficiálne <span className="text-[#01382E]">zastúpenia</span>
-    </h2>
-
-    <p className="text-lg text-gray-600 mb-16">
-      Spolupracujeme s renomovanými výrobcami a technologickými
-      partnermi.
-    </p>
-
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-      {[
-        {
-          link: "/qlight",
-          logo: "/logos/qlight.png",
-        },
-        {
-          link: "/rte",
-          logo: "/logos/marchio.PNG",
-        },
-        {
-          link: "/katko",
-          logo: "/logos/katko.png",
-        },
-      ].map((p, i) => (
-        <div
-          key={i}
-          className="border border-[#01382E] rounded-2xl p-10 bg-white/80 backdrop-blur flex flex-col items-center gap-6"
+        {/* ================= PARTNERI ================= */}
+        <section
+          id="partners"
+          className="min-h-screen px-6 pt-[120px] md:pt-[100px] pb-24 flex items-center"
         >
-          {/* LOGO */}
-          <img
-            src={p.logo}
-            alt="partner logo"
-            className="h-48 object-contain"
-          />
+          <div className="max-w-6xl mx-auto text-center w-full">
+            <h2 className="text-4xl font-bold mb-10">
+              Oficiálne <span className="text-[#01382E]">zastúpenia</span>
+            </h2>
 
-          {/* CTA */}
-          <Link href={p.link}>
-            <button className="bg-[#01382E] text-white px-6 py-2 rounded-full hover:bg-[#012b23] transition">
-              Zistiť viac
-            </button>
-          </Link>
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
+            <p className="text-lg text-gray-600 mb-16">
+              Spolupracujeme s renomovanými výrobcami a technologickými
+              partnermi.
+            </p>
+
+            {/* MOBILE: vsetkych 6 pod sebou */}
+            <div className="grid grid-cols-1 gap-8 md:hidden">
+              {partners.map((p, i) => (
+                <PartnerCard key={i} p={p} />
+              ))}
+            </div>
+
+            {/* DESKTOP: scrollovatelny riadok, vzdy vidno 3 */}
+            <div className="hidden md:block relative">
+              <div
+                ref={scrollRef}
+                className="flex gap-8 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4"
+                style={{ scrollbarWidth: "none" }}
+              >
+                {partners.map((p, i) => (
+                  <div key={i} className="snap-start shrink-0 w-[calc((100%-4rem)/3)]">
+                    <PartnerCard p={p} />
+                  </div>
+                ))}
+              </div>
+
+              {/* sipky */}
+              <button
+                onClick={() => scrollPartners("left")}
+                className="absolute left-[-50px] top-1/2 -translate-y-1/2 bg-[#01382E] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#012b23] transition"
+                aria-label="Predchádzajúci"
+              >
+                ‹
+              </button>
+              <button
+                onClick={() => scrollPartners("right")}
+                className="absolute right-[-50px] top-1/2 -translate-y-1/2 bg-[#01382E] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#012b23] transition"
+                aria-label="Ďalší"
+              >
+                ›
+              </button>
+            </div>
+          </div>
+        </section>
 
         {/* ================= KONTAKT ================= */}
         <section
