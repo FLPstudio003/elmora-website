@@ -113,7 +113,7 @@ export default function Techflex() {
               Kontaktovať nás
             </a>
 
-            
+            <a
               href="https://www.techflex.com/"
               target="_blank"
               rel="noopener noreferrer"
