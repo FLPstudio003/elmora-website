@@ -8,9 +8,9 @@ export default function Home() {
     { link: "/qlight", logo: "/logos/qlight.png" },
     { link: "/rte", logo: "/logos/marchio.PNG" },
     { link: "/katko", logo: "/logos/katko.png" },
-    { link: "/techflex", logo: "/logos/techflex.png" },
-    { link: "/anamet", logo: "/logos/anamet.png" },
-    { link: "/atexsystem", logo: "/logos/atexsystem.png" },
+    { link: "/techflex", logo: "/logos/techflex_logo.png" },
+    { link: "/anamet", logo: "/logos/anamet_logo.png" },
+    { link: "/atexsystem", logo: "/logos/atex_logo.png" },
   ];
 
   const scrollRef = useRef<HTMLDivElement>(null);
