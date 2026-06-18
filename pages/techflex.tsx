@@ -106,14 +106,14 @@ export default function Techflex() {
         <section className="px-6 pb-24 text-center">
           <div className="flex justify-center gap-6 mt-6">
 
-            
+          <a  
               href="/home#contact"
               className="bg-[#01382E] text-white px-8 py-3 rounded-full hover:bg-[#012b23] transition"
             >
               Kontaktovať nás
             </a>
 
-            
+           <a 
               href="https://www.techflex.com/"
               target="_blank"
               rel="noopener noreferrer"
