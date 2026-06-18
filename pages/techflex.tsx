@@ -5,10 +5,10 @@ export default function Techflex() {
   const [selectedImg, setSelectedImg] = useState<string | null>(null);
 
   const images = [
-    "/techflex/tf1.jpg",
-    "/techflex/tf2.jpg",
-    "/techflex/tf3.jpg",
-    "/techflex/tf4.jpg",
+    "tf1.jpg",
+    "tf2.jpg",
+    "tf3.jpg",
+    "tf4.jpg",
   ];
 
   return (
